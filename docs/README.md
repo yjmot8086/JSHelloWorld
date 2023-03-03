@@ -12,22 +12,26 @@
 ## ローカルリポジトリのディレクトリを作成します
 + エクスプローラーでフォルダーを右クリック、新規作成 -> フォルダー を選択します
 + フォルダー名を __JSHelloWorld__ に変更します
-+ 同様に docs フォルダーを作成します
-+ docs フォルダーの中に images フォルダーと __README.md__ を作成します
++ さらに、次の構造になるようにフォルダーとファイルを作成します
+
+    ```  
+    C:.
+    │  .gitignore
+    │
+    └─docs
+        │  README.md
+        │
+        └─images
+    ```
 
 ## Git Bash を起動します
 + フォルダーを右クリック、その他のオプションを表示 -> Git Bash Here を選択します
 
 ## ローカルリポジトリにコミットして、リモートリポジトリにプッシュします
+
     git init
     git add .
     git commit -m "First commit."
     git branch -M main
     git remote add origin https://github.com/yjmot8086/JSHelloWorld.git
     git push -u origin main
-
-## README.md を作成して、Git Bash を起動します
-+ __README.md__ を作成します
-+ フォルダーを右クリック、その他のオプションを表示 -> Git Bash Here を選択します
-+ __pwd__ コマンドで現在のフォルダを確認します
-
