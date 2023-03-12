@@ -28,10 +28,25 @@
 + フォルダーを右クリック、その他のオプションを表示 -> Git Bash Here を選択します
 
 ## ローカルリポジトリにコミットして、リモートリポジトリにプッシュします
-
+ 
     git init
     git add .
     git commit -m "First commit."
     git branch -M main
     git remote add origin https://github.com/yjmot8086/JSHelloWorld.git
     git push -u origin main
+
+## よく使う Git コマンド一覧です
++ 指定のディレクトリ配下の変更や、新規作成した全てのファイルを追加する場合のコマンドです
+
+     ```
+     git add .
+     ```
++ 指定のディレクトリ配下のファイルを追加する場合のコマンドです
+    ```
+    git add assets/css/reset.min.css
+    ```
+    ```
+    git add index.html
+    ```
+
