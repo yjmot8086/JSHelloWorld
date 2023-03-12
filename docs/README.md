@@ -37,16 +37,20 @@
     git push -u origin main
 
 ## よく使う Git コマンド一覧です
-+ 指定のディレクトリ配下の変更や、新規作成した全てのファイルを追加する場合のコマンドです
++ 指定のフォルダー配下の変更や、新規作成した全てのファイルやフォルダーを追加するコマンドです
 
      ```
      git add .
      ```
-+ 指定のディレクトリ配下のファイルを追加する場合のコマンドです
-    ```
-    git add assets/css/reset.min.css
-    ```
++ 指定のフィルダー配下のファイルを追加する場合のコマンドです
+
     ```
     git add index.html
+    git add assets/css/reset.min.css
     ```
-
+## GitHub Pages を設定します
++  [GitHub](https://github.co.jp/) へサインインします
++ __JSHelloWorld__ リポジトリに移動します
++ Settings -> Pages と選択していきます
++ Branch の項目が None となっているので、デフォルトブランチ main に変更して Saveボタンを押します
++ url 表示に時間がかかる場合があります
