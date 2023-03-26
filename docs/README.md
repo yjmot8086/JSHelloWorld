@@ -42,12 +42,18 @@
      ```
      git add .
      ```
-+ 指定のフィルダー配下のファイルを追加する場合のコマンドです
++ 指定のフィルダー配下のファイルを追加するコマンドです
 
     ```
     git add index.html
     git add assets/css/reset.min.css
     ```
++ リポジトリとフォルダー配下のファイルを削除するコマンドです
+
+    ```
+    git rm assets/images/favicon.svg
+    ```
+
 ## GitHub Pages を設定します
 +  [GitHub](https://github.co.jp/) へサインインします
 + __JSHelloWorld__ リポジトリに移動します
