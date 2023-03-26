@@ -52,5 +52,5 @@
 +  [GitHub](https://github.co.jp/) へサインインします
 + __JSHelloWorld__ リポジトリに移動します
 + Settings -> Pages と選択していきます
-+ Branch の項目が None となっているので、デフォルトブランチ main に変更して Saveボタンを押します
++ Branch の項目が None となっているので、main に変更して Save ボタンを押します
 + url 表示に時間がかかる場合があります
